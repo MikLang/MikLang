@@ -1,13 +1,68 @@
-h1 {
-    color: #333;
-    font-size: 36px;
-    margin-bottom: 30px;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-p {
-    color: #555;
-    font-size: 18px;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.intro {
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.ribbon {
+    background-color: #ff4081;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-post {
+    width: calc(33% - 2rem);
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.blog-post h3 {
+    margin-top: 0;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.portrait {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    max-width: 30%;
 }
